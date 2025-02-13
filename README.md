@@ -1,4 +1,5 @@
 from now on, I will show my work process in the readme, so that everyone can understand better.
+unless it's a long process, then I'll make it in pdf
 
 # TomanBikeShare
 
@@ -66,6 +67,8 @@ a table called dbo.bike_share_yr_0 has been inserted into the bike_data database
 
 ![image](https://github.com/user-attachments/assets/bcd0c40b-db63-4596-a64c-a57c095392d9)
 
+To view the table contents, right-click on the table you want to view. then click select top 1000 rows
 
+![image](https://github.com/user-attachments/assets/b4a6a056-b47c-4936-b8b6-6d16beb59905)
 
 
