@@ -1,3 +1,5 @@
+from now on, I will show my work process in the readme, so that everyone can understand better.
+
 # TomanBikeShare
 
 <p align="center">
