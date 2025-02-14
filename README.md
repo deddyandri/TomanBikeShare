@@ -71,4 +71,30 @@ To view the table contents, right-click on the table you want to view. then clic
 
 ![image](https://github.com/user-attachments/assets/b4a6a056-b47c-4936-b8b6-6d16beb59905)
 
+the result is the content of the table (1000 rows) and the SQL query
+
+![image](https://github.com/user-attachments/assets/6d95ae0a-089d-4bef-9daf-fd5c4327f0c5)
+
+#### we can add 2 other files namely dbo.bike_share_yr_1 and dbo.cost_table 
+#### in the way that I have described above
+#### after refreshing, the 3 files have been entered into the bike_data databases.
+
+![image](https://github.com/user-attachments/assets/8672ed39-1e45-44bd-bd44-0b7c372c9ebc)
+
+we will now increase the font size of the script display and result display
+The method is, on the main menu, select tools, then options
+
+#### an Options window will appear
+![image](https://github.com/user-attachments/assets/8d47360d-e15e-4c89-91f1-3b9f142cac7e)
+
+#### choose Environment then Fonts and Colors
+
+![image](https://github.com/user-attachments/assets/8b463048-4cb6-41e3-bd27-44d2c004fe8c)
+
+#### on the "show settings for", choose Grid Results, we can change Font and size, 
+#### I prefer using Arial font with size 12, then OK
+![image](https://github.com/user-attachments/assets/3b2b99e9-fb05-4ddc-b610-8d89bee1d91b)
+
+to be able to see the changes, the application must be restarted first
+
 
