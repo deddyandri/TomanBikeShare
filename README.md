@@ -28,7 +28,9 @@ unless it's a long process, then I'll make it in pdf
 #### now you could see bike_data Databases
 ![image](https://github.com/user-attachments/assets/5923326d-70e7-4325-aeae-80c563b35d7b)
 
-we can now add tabel to the databases , right click on bike_data, then Task, and Import flat file
+we can now add tabel to the databases , 
+right click on bike_data, then Task, and Import flat file
+
 
 ![image](https://github.com/user-attachments/assets/25cf6061-1c5e-48d5-a273-6d614143d2dd)
 
