@@ -128,7 +128,7 @@ with cte as(
 	select * from bike_share_yr_0
 	union
 	select * from bike_share_yr_1)
-
+-- Main Query
 select * from cte a
 left join cost_table b
 on a.yr = b.yr
@@ -138,41 +138,64 @@ The result is that there are additional new columns, namely price and COGS, to t
 
 ![image](https://github.com/user-attachments/assets/6ad63dcc-5b95-40fb-9cc4-b7cd0409101a)
 
+we will use just some columns,
+```sql
+with cte as(
+	select * from bike_share_yr_0
+	union
+	select * from bike_share_yr_1)
 
+select 
+dteday,
+season,
+a.yr,
+weekday,
+hr,
+rider_type,
+riders,
+price,
+COGS
 
+from cte a
+left join cost_table b
+on a.yr = b.yr
+```
+the results are
 
+![image](https://github.com/user-attachments/assets/9f390308-d916-49a6-b2a6-7c3e45a24cf7)
 
+we also add revenue column which is the multiplication of the rider column by the price
+and Profit Column which is multiplication of rider x price minus COGS
 
+![image](https://github.com/user-attachments/assets/b87785a6-e006-42a2-868c-44bdb57f4f8a)
 
 ```sql
-SELECT file_hash  -- stored ssdeep hash
-  FROM file_system
- WHERE file_name = '.vimrc';
+with cte as(
+	select * from bike_share_yr_0
+	union
+	select * from bike_share_yr_1)
+
+select 
+dteday,
+season,
+a.yr,
+weekday,
+hr,
+rider_type,
+riders,
+price,
+COGS,
+riders*price as Revenue,
+riders*price - COGS as Profit
+
+from cte a
+left join cost_table b
+on a.yr = b.yr
 ```
-```sql
-/* Updating the file record after writing to the file */
-UPDATE file_system
-   SET file_modified_date = '1980-02-22 13:19:01.00000',
-       file_size = 209732
- WHERE file_name = '.vimrc';
-```
+the final result are
 
-## Overview
+![image](https://github.com/user-attachments/assets/74b9e471-40df-4b63-ab60-365512b3f70a)
 
-You can use this set of guidelines, [fork them][fork] or make your own - the
-key here is that you pick a style and stick to it. To suggest changes
-or fix bugs please open an [issue][issue] or [pull request][pull] on GitHub.
+we will use this query to make a visualization in power BI.
 
-These guidelines are designed to be compatible with Joe Celko's [SQL Programming
-Style][celko] book to make adoption for teams who have already read that book
-easier. This guide is a little more opinionated in some areas and in others a
-little more relaxed. It is certainly more succinct where [Celko's book][celko]
-contains anecdotes and reasoning behind each rule as thoughtful prose.
 
-It is easy to include this guide in [Markdown format][dl-md] as a part of a
-project's code base or reference it here for anyone on the project to freely
-read—much harder with a physical book.
-
-SQL style guide by [Simon Holywell][simon] is licensed under a [Creative Commons
-Attribution-ShareAlike 4.0 International License][licence].
-Based on a work at [https://www.sqlstyle.guide/][sqlstyleguide].
