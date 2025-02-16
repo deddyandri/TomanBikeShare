@@ -197,5 +197,38 @@ the final result are
 ![image](https://github.com/user-attachments/assets/74b9e471-40df-4b63-ab60-365512b3f70a)
 
 we will use this query to make a visualization in power BI.
+In order for this query to connect with Power BI, we need to know the server type and server name. 
+The first step is:
+at the top of Object Explorer menu, click server name, then right click, choose connect
+
+![image](https://github.com/user-attachments/assets/0be7e33c-6e56-4a7b-b3c1-c4bfcd877a48)
+
+we can identify its server name, my server name is HOME-PC1 , block and copy the server name
+
+![image](https://github.com/user-attachments/assets/22406e0e-9e70-45d5-9cb8-5efa13e3930b)
+
+now open the microsoft power bi desktop application
+on menu click get data, then Server Name
+we then fill in server name and database name
+
+![image](https://github.com/user-attachments/assets/12294fbe-0ab7-4086-b2ac-7d6a7b3836f9)
+
+then click Advanced Option to fill in SQL Statement
+
+we then open SQL SMS to copy the final query
+
+![image](https://github.com/user-attachments/assets/992d972f-f785-4154-a400-130be460585f)
+
+then paste it on SQL Server database windows which is in power bi
+
+![image](https://github.com/user-attachments/assets/a6d47dc9-bf6b-4167-8bcb-beb8bb93a32c)
+
+then click OK
+then the windows will appear again, click connect, Then OK
+
+![image](https://github.com/user-attachments/assets/e0e9dc05-c6e5-44f3-b21a-74cffc74ce2d)
+
+now we start move on to microsoft power BI desktop
+
 
 
