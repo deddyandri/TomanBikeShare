@@ -112,9 +112,31 @@ We can see the result at the bottom right of the result table, where the number 
 
 ![image](https://github.com/user-attachments/assets/0d1b934e-b771-4118-ab29-91b505499657)
 
+we will see the contents of the cost_table table 
 
+![image](https://github.com/user-attachments/assets/528d734d-0dc8-41ce-9fd2-51a129b8f13d)
 
+we will join the table previously formed with the cost_table, 
+here we see the cost table can join the main table through the yr column
+we will join using the left join function
+We can see the combined table between bike_share_yr_0 and yr_1 as follows :
 
+![image](https://github.com/user-attachments/assets/b343a222-bca5-4555-a65f-4d596caa2d3d)
+
+```sql
+with cte as(
+	select * from bike_share_yr_0
+	union
+	select * from bike_share_yr_1)
+
+select * from cte a
+left join cost_table b
+on a.yr = b.yr
+```
+
+The result is that there are additional new columns, namely price and COGS, to the right of the main column.
+
+![image](https://github.com/user-attachments/assets/6ad63dcc-5b95-40fb-9cc4-b7cd0409101a)
 
 
 
