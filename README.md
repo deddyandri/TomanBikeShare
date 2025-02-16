@@ -229,6 +229,15 @@ then the windows will appear again, click connect, Then OK
 ![image](https://github.com/user-attachments/assets/e0e9dc05-c6e5-44f3-b21a-74cffc74ce2d)
 
 now we start move on to microsoft power BI desktop
+after the process of importing sql query to power BI, 
+in the power BI desktop application there will be a window that contains the sql query that we have created.
 
+![image](https://github.com/user-attachments/assets/79a6ce3a-ac95-456e-b077-dcf4cc3b2963)
+
+click Load
+
+We can check whether the query has been entered, by clicking on the table view in the left menu of the Power BI desktop.
+
+![image](https://github.com/user-attachments/assets/1868160d-f374-4276-8a40-4277be905c36)
 
 
