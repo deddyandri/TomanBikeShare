@@ -13,7 +13,7 @@ unless it's a long process, then I'll make it in pdf
 3.  Seasonal Revenue
 4.  Rider Demographics
 
-### Use Company Colours
+# process steps
 
 
 #### first open SQL server management studio 
@@ -108,17 +108,17 @@ select * from bike_share_yr_0
 union
 select * from bike_share_yr_1
 ```
-We can see the result at the bottom right of the result table, where the number of rows is 34,758.
+We can see the result at the bottom right of the result query, where the number of rows is 34,758.
 
 ![image](https://github.com/user-attachments/assets/0d1b934e-b771-4118-ab29-91b505499657)
 
-we will see the contents of the cost_table table 
+we will see the contents of the cost_table query 
 
 ![image](https://github.com/user-attachments/assets/528d734d-0dc8-41ce-9fd2-51a129b8f13d)
 
-we will join the table previously formed with the cost_table, 
+we will join the table previously formed with the cost_table query, 
 here we see the cost table can join the main table through the yr column
-we will join using the left join function
+we will join using the left join function and CTE (Common Table Expression) 
 We can see the combined table between bike_share_yr_0 and yr_1 as follows :
 
 ![image](https://github.com/user-attachments/assets/b343a222-bca5-4555-a65f-4d596caa2d3d)
