@@ -240,4 +240,7 @@ We can check whether the query has been entered, by clicking on the table view i
 
 ![image](https://github.com/user-attachments/assets/1868160d-f374-4276-8a40-4277be905c36)
 
+we now start making the visualization
+
+I will not explain the visualization process in power BI, but you can see the file in the attached file.
 
