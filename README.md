@@ -33,14 +33,14 @@ we can now add tabel to the databases , right click on bike_data, then Task, and
 ![image](https://github.com/user-attachments/assets/25cf6061-1c5e-48d5-a273-6d614143d2dd)
 
 windows will appear, then click just next
-<p align="center">
+<p align="left">
   <image src="https://github.com/user-attachments/assets/4b958c56-0316-4ee7-8a68-b49c0f2d4784" width = 50% height=50% />
   </p>
 then click browse to find the file
 the file name is in the attachment on this github, you can download it
 
 first we enter a file called bike_share_yr_0.csv
-<p align="center">
+<p align="left">
 <image src="https://github.com/user-attachments/assets/81df8b3f-7674-40d4-ac02-7f418995a177" width = 50% heigh=50% />
 </p>
 
@@ -97,4 +97,60 @@ The method is, on the main menu, select tools, then options
 
 to be able to see the changes, the application must be restarted first
 
+we go back to table dbo.bike_share_yr_0 
+now we block all the sql coding, to be deleted 
+press Delete key on the keyboard
+![image](https://github.com/user-attachments/assets/a4a454e3-a72a-47f6-aab8-0e4966b3729c)
 
+we will merge the two files bike_share_yr_0 and bike_share_yr_1, using the union function
+```sql
+select * from bike_share_yr_0
+union
+select * from bike_share_yr_1
+```
+We can see the result at the bottom right of the result table, where the number of rows is 34,758.
+
+![image](https://github.com/user-attachments/assets/0d1b934e-b771-4118-ab29-91b505499657)
+
+
+
+
+
+
+
+
+
+
+
+```sql
+SELECT file_hash  -- stored ssdeep hash
+  FROM file_system
+ WHERE file_name = '.vimrc';
+```
+```sql
+/* Updating the file record after writing to the file */
+UPDATE file_system
+   SET file_modified_date = '1980-02-22 13:19:01.00000',
+       file_size = 209732
+ WHERE file_name = '.vimrc';
+```
+
+## Overview
+
+You can use this set of guidelines, [fork them][fork] or make your own - the
+key here is that you pick a style and stick to it. To suggest changes
+or fix bugs please open an [issue][issue] or [pull request][pull] on GitHub.
+
+These guidelines are designed to be compatible with Joe Celko's [SQL Programming
+Style][celko] book to make adoption for teams who have already read that book
+easier. This guide is a little more opinionated in some areas and in others a
+little more relaxed. It is certainly more succinct where [Celko's book][celko]
+contains anecdotes and reasoning behind each rule as thoughtful prose.
+
+It is easy to include this guide in [Markdown format][dl-md] as a part of a
+project's code base or reference it here for anyone on the project to freely
+read—much harder with a physical book.
+
+SQL style guide by [Simon Holywell][simon] is licensed under a [Creative Commons
+Attribution-ShareAlike 4.0 International License][licence].
+Based on a work at [https://www.sqlstyle.guide/][sqlstyleguide].
