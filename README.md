@@ -275,4 +275,12 @@ become
 then click OK
 on the top left corner, click Close&Apply
 
+recomendation based on calculation of sum of riders, sum of revenue, sum of profit , and average of price
+
+![image](https://github.com/user-attachments/assets/99b64a5e-bc74-4c13-9d4a-8cb3d4da942d)
+
+![image](https://github.com/user-attachments/assets/8ce5a020-d8a0-469c-b024-b267fd0b8cbe)
+
+
+
 
