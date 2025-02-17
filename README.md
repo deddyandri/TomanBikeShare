@@ -1,6 +1,11 @@
 from now on, I will show my work process in the readme, so that everyone can understand better.
 unless it's a long process, then I'll make it in pdf
 
+## the final result of power bi visualization is
+![image](https://github.com/user-attachments/assets/dbf56738-7907-4a70-8683-16dfe0b4f833)
+
+
+
 # TomanBikeShare
 
 <p align="center">
