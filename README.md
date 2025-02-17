@@ -246,3 +246,33 @@ we now start making the visualization
 
 I will not explain the visualization process in power BI, but you can see the file in the attached file.
 
+there is a slight change to the revenue formula, for that we can change it through the Power BI desktop.
+
+there is a Transform data on top of power BI menu
+
+![image](https://github.com/user-attachments/assets/7b3869f0-14b0-46c4-ab1c-ed822850b307)
+
+data transform windows will appear
+
+![image](https://github.com/user-attachments/assets/37ee7587-83d4-4b40-a5d3-eba72463403d)
+
+on the right side, there is APPLIED STEP menu, click on gear icon beside the text is written Source
+
+![image](https://github.com/user-attachments/assets/07288465-f6a0-41d7-8885-a2b3cd7a7295)
+
+There will be a SQL server database window, in the section labeled “SQL statement”, we will change the sql code
+
+![image](https://github.com/user-attachments/assets/9b57ca1b-25f1-4eab-86cc-9db63b6eb4bf)
+
+we will change this code
+
+![image](https://github.com/user-attachments/assets/668bbb5e-c1a5-4e74-960e-b9e4e250af5d)
+
+become
+
+![image](https://github.com/user-attachments/assets/40f32390-553b-4c3e-adf3-983f974d8be5)
+
+then click OK
+on the top left corner, click Close&Apply
+
+
