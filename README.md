@@ -21,16 +21,16 @@ unless it's a long process, then I'll make it in pdf
 # process steps
 
 
-#### first open SQL server management studio 
-#### we start with create database by right click on folder Databases then click New database
+first open SQL server management studio 
+we start with create database by right click on folder Databases then click New database
 
 ![image](https://github.com/user-attachments/assets/de2ddc5f-40f8-48b9-8e6c-ecdf04a2088e)
 
-#### on Database name, filled with name bike_data
+on Database name, filled with name bike_data
 
 ![image](https://github.com/user-attachments/assets/f3318856-a71a-4801-965d-2f0f3cd47d4c)
 
-#### now you could see bike_data Databases
+now you could see bike_data Databases
 ![image](https://github.com/user-attachments/assets/5923326d-70e7-4325-aeae-80c563b35d7b)
 
 we can now add tabel to the databases , 
