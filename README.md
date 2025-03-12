@@ -22,6 +22,7 @@ unless it's a long process, then I'll make it in pdf
 
 
 first open SQL server management studio 
+
 we start with create database by right click on folder Databases then click New database
 
 ![image](https://github.com/user-attachments/assets/de2ddc5f-40f8-48b9-8e6c-ecdf04a2088e)
@@ -31,9 +32,11 @@ on Database name, filled with name bike_data
 ![image](https://github.com/user-attachments/assets/f3318856-a71a-4801-965d-2f0f3cd47d4c)
 
 now you could see bike_data Databases
+
 ![image](https://github.com/user-attachments/assets/5923326d-70e7-4325-aeae-80c563b35d7b)
 
 we can now add tabel to the databases , 
+
 right click on bike_data, then Task, and Import flat file
 
 
@@ -89,9 +92,11 @@ the result is the content of the table (1000 rows) and the SQL query
 ![image](https://github.com/user-attachments/assets/8672ed39-1e45-44bd-bd44-0b7c372c9ebc)
 
 we will now increase the font size of the script display and result display
+
 The method is, on the main menu, select tools, then options
 
 #### an Options window will appear
+
 ![image](https://github.com/user-attachments/assets/8d47360d-e15e-4c89-91f1-3b9f142cac7e)
 
 #### choose Environment then Fonts and Colors
@@ -107,6 +112,7 @@ to be able to see the changes, the application must be restarted first
 we go back to table dbo.bike_share_yr_0 
 now we block all the sql coding, to be deleted 
 press Delete key on the keyboard
+
 ![image](https://github.com/user-attachments/assets/a4a454e3-a72a-47f6-aab8-0e4966b3729c)
 
 we will merge the two files bike_share_yr_0 and bike_share_yr_1, using the union function
