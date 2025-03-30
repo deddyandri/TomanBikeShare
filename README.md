@@ -4,7 +4,11 @@ unless it's a long process, then I'll make it in pdf
 ## the final result of power bi visualization is
 ![image](https://github.com/user-attachments/assets/dbf56738-7907-4a70-8683-16dfe0b4f833)
 
+recomendation based on calculation of sum of riders, sum of revenue, sum of profit , and average of price
 
+![image](https://github.com/user-attachments/assets/99b64a5e-bc74-4c13-9d4a-8cb3d4da942d)
+
+![image](https://github.com/user-attachments/assets/8ce5a020-d8a0-469c-b024-b267fd0b8cbe)
 
 # TomanBikeShare
 
@@ -286,11 +290,6 @@ become
 then click OK
 on the top left corner, click Close&Apply
 
-recomendation based on calculation of sum of riders, sum of revenue, sum of profit , and average of price
-
-![image](https://github.com/user-attachments/assets/99b64a5e-bc74-4c13-9d4a-8cb3d4da942d)
-
-![image](https://github.com/user-attachments/assets/8ce5a020-d8a0-469c-b024-b267fd0b8cbe)
 
 
 
